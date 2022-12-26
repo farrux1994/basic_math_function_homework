@@ -1,4 +1,4 @@
-def main(PI=3.1415):
+def main():
     '''return the value of pi
     
     Args:
@@ -7,7 +7,7 @@ def main(PI=3.1415):
     Returns:
         float: the value of pi.
     '''
-    a = float(PI)
-    return a
+    PI = float(3.1415)
+    return PI
 y = main()
 print(y)
