@@ -7,7 +7,7 @@ def main(a):
     Returns:
         float: the result.
     '''
-    PI = a
+    PI = float(a)
     return PI
 
 y = main(3.1415)
