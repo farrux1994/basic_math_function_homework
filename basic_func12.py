@@ -7,4 +7,7 @@ def main(a):
     Returns:
         float: the result
     '''
-    return
+    X = a
+    return X
+y = main(8/3)
+print(round(y,2))
