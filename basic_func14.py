@@ -12,4 +12,4 @@ def main(a, b):
     return x
 
 y = main(10, 2)
-print(int(y))
+print(y)
