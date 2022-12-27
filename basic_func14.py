@@ -8,8 +8,8 @@ def main(a, b):
     Returns:
         int: the result.
     '''
-    x = int(a) / int(b)
+    x = int(a) // int(b)
     return x
 
-y = main(10, 2)
+y = main(11, 2)
 print(y)
