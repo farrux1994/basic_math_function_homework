@@ -10,4 +10,4 @@ def main(a):
     x = a
     return x
 y = main(6.453)
-print(float(round(y,2)))
+print(round(y,2))
